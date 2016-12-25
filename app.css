@@ -1,0 +1,102 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+#calc {
+  display: block;
+  width: 33%;
+  border: 1px solid black;
+  margin: 25px auto;
+  background: lightgrey;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+#screen {
+  display: block;
+  width: 90%;
+  height: 40px;
+  background: white;
+
+  margin: 5px auto;
+  padding: 0 5px;
+  line-height: 40px;
+  text-align: right;
+  vertical-align: middle;
+  font-family: Consolas,monospace;
+  font-size: 125%;
+}
+
+#config {
+  background:white;
+}
+
+#config > * {
+  display:inline-block;
+  width: 20%;
+  margin: 15px 10px 15px 15px;
+  text-align: center;
+  cursor: default;
+    border-bottom:1px solid lightgrey;
+}
+
+#buttons {
+
+  display: block;
+
+  width: 90%;
+  height: 266px;
+  margin: 10px auto;
+  background: yellow;
+}
+
+
+#buttons2 {
+  display: block;
+  background: white;
+  width: 75%;
+  height: 100%;
+  float: left;
+}
+
+#bloqop {
+  display: block;
+  width: 25%;
+  height: 100%;
+  background: white;
+  float: right;
+  text-align: center;
+}
+.but {
+  height: 16%;
+  line-height: 44px;
+  vertical-align: middle;
+  font-family: Consolas,monospace;
+  font-size: 125%;
+  border-bottom:1px solid lightgrey;
+  cursor: default;
+}
+
+.buttns {
+  width: 99%;
+  height: 25%;
+  text-align: center;
+
+}
+
+.button {
+  display: inline-block;
+  width: 25%;
+  height: 80%;
+  margin: 3%;
+  line-height: 50px;
+  font-family: Consolas,monospace;
+  font-size: 125%;
+  border-bottom:1px solid lightgrey;
+  cursor: default;
+}
